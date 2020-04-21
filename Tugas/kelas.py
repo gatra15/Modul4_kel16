@@ -31,6 +31,11 @@ class parkiran :
 
 		#menghitung biaya
 		biaya = harga * lama
+		if biaya > 20000 :
+			biaya = 20000
+		else :
+			biaya = biaya
+
 		print('\n\n--------------- Biaya ---------------')
 		print(f"Biaya parkir {kendaraan}   : Rp.",biaya )
 
@@ -39,5 +44,3 @@ class parkiran :
 		kembalian = uang - biaya
 		print('Uang kembalian \t     : Rp.', kembalian)
 
-
-		
