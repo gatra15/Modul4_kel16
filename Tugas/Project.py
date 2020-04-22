@@ -1,5 +1,5 @@
 import kelas
-simpan = [];
+
 
 def ulang() :
 	loop = input('Apakah Anda ingin menghitung lagi?[ya/tidak]\n')
